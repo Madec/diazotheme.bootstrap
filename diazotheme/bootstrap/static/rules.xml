@@ -10,7 +10,10 @@
     <theme href="base.html" css:if-content="#visual-portal-wrapper"/>
 
     <!-- then add an exception for dialog boxes -->
+    <!-- this broken tinymce image browser so I commented it -->
+    <!--
     <theme href="dialog.html" css:if-content="#content.dialog-wrapper"/>
+    -->
 
     <!-- this pulls in the title tag -->
     <replace theme="/html/head/title" content="/html/head/title" />
